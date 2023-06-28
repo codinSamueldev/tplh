@@ -7,12 +7,22 @@ main{
     width: 80vw;
     margin: 0 auto;
     background-color: #F9F5F6;
+    border-radius: 12px;
 }
 
 h1{
     margin: 10px;
     padding-top: 10px;
     text-align: center;
+}
+
+.top-info .date{
+    font-size: 12px;
+    letter-spacing: .14px;
+    line-height: 0.4;
+    color: #6C6C6C;
+    background-color: inherit;
+    margin: 0;
 }
 
 section{
@@ -26,6 +36,11 @@ header{
     text-align: center;
 }
 
+#introduction header{
+    border-top: 2px solid #C4DFDF;
+    padding: 5px;
+}
+
 p, div{
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -35,12 +50,30 @@ a{
 }
 
 li{
+    margin: 10px;
+}
+
+.requirements{
     list-style: none;
 }
 
 div p{
+    margin: 0.8rem;
+    padding: 0.5rem;
     background-color: #C4DFDF;
-    padding: 0.7rem;
+    text-align: center;
+}
+
+div q{
+    margin: 0.8px;
+    padding: 1px;
+    background-color: #C4DFDF;
     font-style: italic;
     text-align: center;
+}
+
+#contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
