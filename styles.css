@@ -4,11 +4,13 @@ body{
 }
 
 main{
+    width: 80vw;
     margin: 0 auto;
     background-color: #F9F5F6;
 }
 
 h1{
+    margin: 10px;
     padding-top: 10px;
     text-align: center;
 }
@@ -21,4 +23,24 @@ section{
 header{
     font-size: 1.59rem;
     font-weight: bold;
+    text-align: center;
+}
+
+p, div{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+div p{
+    background-color: #C4DFDF;
+    padding: 0.7rem;
+    font-style: italic;
+    text-align: center;
 }
